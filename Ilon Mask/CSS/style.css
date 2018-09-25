@@ -1,0 +1,71 @@
+.Heading {
+	width: 710px;
+	height: 30px;
+	background-color: rgb(128, 0, 128);
+	box-shadow: 0px; 10px; 10px; MediumVioletRed;
+	font-size: 25px;
+	font-style: bold;
+	font-family: 'Lobster', cursive;
+	font-color: LightSeaGreen; 
+	border-width: 2px;
+	border-color: Plum;
+	border-style: dotted;
+}
+.image {
+	width: 710px;
+	height: 748px;
+	border-style: dotted;
+	border-color: Plum;
+	border-width: 2px;
+}
+.Links {
+	width: 710px;
+	height: 25px;
+	background-color: LightSeaGreen;
+	border-width: 2px;
+	border-style: dotted;
+	border-color: Plum;
+	font-size: 15px;
+	font-style: normal;
+	font-family: 'Lobster', cursive;
+	font-color: Plum; 
+	background-image: linear-gradient(to left bottom, Plum 50%, LightSeaGreen 50%)
+}
+.sectionHeading {
+	background-color: rgb(128, 0, 128);
+	width: 713px;
+	height: 30px;
+	font-style: italic;
+	font-family: 'Lobster', cursive;
+	font-size: 20px;
+	text-align: center;	
+	font-color: LighSeaGreen;
+}
+.text {
+	width: 710px;
+	height: 260px;
+	background-color: Plum;
+	border-bottom: none;
+	border-left: 2px dotted LightSeaGreen;
+	border-top: 2px dotted LightSeaGreen;
+	border-right: 2px dotted LightSeaGreen;
+	text-align: justify;
+	font-family: 'Montserrat Alternates', sans-serif;
+	font-size: 15px;
+	line-height: 15px;
+	background-image: linear-gradient(to right top, Plum 70%, LightSeaGreen 30%)
+}
+.copyright {
+	width: 710px;
+	height: 20px;
+	background-color: LightSeaGreen;
+	border-top: none;
+	border-left: 2px dotted Plum;
+	border-bottom: 2px dotted Plum;
+	border-right: 2px dotted Plum;
+	font-size: 10px;
+	font-style: bold;
+	font-family: 'Montserrat Alternates', sans-serif;
+	font-color: Plum; 
+	background-image: linear-gradient(to right bottom, Plum 50%, LightSeaGreen 50%)
+}
