@@ -1,0 +1,58 @@
+@import url(normalize.css);
+.heading {
+	background-color: blue;
+	height: 50px;
+	width: 855px;
+	display: block;
+	position: fixed;
+	text-transform: uppercase;
+	text-align: left;
+}
+section {
+	color: black;
+	font-size: 18px;
+	font-family: 'Montserrat Alternates', sans-serif;
+	border: 1px solid lightgrey;
+	border-radius: 10%;
+	width: 250px;
+	height: 600px;
+	display: inline-block;
+	padding: 10px;
+	position: static;
+	margin-top: 80px;
+	margin-bottom: 10px;
+	text-align: justify;
+	vertical-align: top;
+}
+h1 {
+	font-size: 20px;
+}
+.space {
+	width: 10px;
+	display: inline-block;
+	position: static;
+	margin-top: 50px;
+	margin-bottom: 10px;
+}
+footer {
+	background-color: blue;
+	height: 50px;
+	width: 855px;
+	display: block;	
+}
+.footer {
+	margin-left: 15px;
+}
+footer h2 {
+	color: white;
+	font-style: bold;
+	font-family: 'Montserrat Alternates', sans-serif;
+	font-size: 20px;
+	padding-top: 15px;
+}
+header h2 {
+	color: white;
+	font-style: bold;
+	font-family: 'Montserrat Alternates', sans-serif;
+	font-size: 20px;	
+}
