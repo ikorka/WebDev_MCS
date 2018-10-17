@@ -1,0 +1,81 @@
+@import url(normalize.css);
+font-family: 'Cuprum', sans-serif;
+
+.header-container {
+	height: 50px;
+	width: 900px;
+	display: block;
+}
+
+.headerLeft h1 {
+	font-size: 30px;
+	font-weight: bold;
+	width: 900px;
+	background-color: PaleVioletRed;
+	text-align: left;
+	color: LemonChiffon;
+	display: inline-block;
+}
+
+.headerRight a {
+	text-align: right;
+	display: inline-block;
+}
+
+.image-container {
+	height: 300px;
+	width: 900px;
+	background-image: url(../IMG/stock-photo-sunrise-61786861.jpg);
+	background-position: center;
+	background-attachment: fixed;
+}
+
+.image-container h2 {
+	font-size: 38px;
+	font-weight: bold;
+	text-align: center;
+	color: LemonChiffon;
+	padding-top: 100px;
+}
+
+.description, .quote {
+	width: 880px;
+	border: 1px dashed RebeccaPurple;
+	border-radius: 5%;
+	text-align: justify;
+	line-height: 20px;
+	font-size: 18px;
+	font-style: italic;
+	padding: 5px;
+	margin: 5px 5px;
+}
+.quote p {
+	text-align: right;
+}
+.logo-container {
+	flex-direction: row;
+	display: inline-flex;
+	justify-content: space-around;
+	align-items: stretch;
+}
+h4 {
+	font-size: 20px;
+	color: Indigo;
+	text-align: center;
+	margin-left: 150px;
+}
+.logo-container img {
+	height: 100px;
+	width: 100px;
+	border: 1px solid RebeccaPurple; 
+	border-radius: 50%;
+	margin-left: 150px;
+}
+.footer {
+	height: 30px;
+	width: 900px;
+	background-color: PaleVioletRed;
+	color: LemonChiffon;
+	text-align: left;	
+	font-size: 10px;
+}
