@@ -1,0 +1,79 @@
+@import url(normalize.css);
+font-family: 'Yeseva One', cursive;
+
+.header {
+	height: 50px;
+	margin: 5px;
+}
+
+h1 {
+	background-color: LemonChiffon;
+	font-size: 40px;
+	color: Brown;
+	font-weight: bold; 
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.columns {
+	display: flex;
+	min-height: 600px;
+	margin: auto;
+	justify-content: space-between;
+	align-items: stretch; 
+}
+
+.column {
+	border: 2px dashed orange;
+	border-radius: 5%;
+	width: calc((100% - 60px)/3);
+	background-color: LightGoldenRodYellow;
+}
+
+h2 {
+	color: darkred;
+	font-size: 30px;
+	font-style: italic;
+	text-align: center;
+}
+
+p {
+	color: darkred;
+	font-size: 20px;
+	text-align: justify;
+	font-style: italic;
+	padding: 3px;
+	align-items: stretch;
+}
+
+.imageOne {
+	background-image: url(../IMG/HF.jpg); 
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding-bottom: 100%;
+}
+
+.imageTwo {
+	background-image: url(../IMG/W.jpg);
+	background-size: cover;
+	background-position: center;
+	padding-bottom: 100%;
+}
+
+.imageThree {
+	background-image: url(../IMG/KH.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding-bottom: 100%;
+}
+
+.footer {
+	height: 30px;
+	background-color: LemonChiffon;
+	font-size: 15px;
+	color: brown;
+	font-weight: bold;
+	margin-top: 5px;
+}
