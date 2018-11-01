@@ -1,0 +1,62 @@
+@import url(normalize.css);
+
+font-family: 'Forum', cursive;
+
+form {
+	width: 90%;
+	margin: auto;
+}
+
+input, select, textarea {
+	display: block;
+	width: 100%;
+	font-size: 16px;
+}
+
+fieldset {
+	border: none;
+}
+
+input {
+	height: 20px;
+}
+
+label, span {
+	line-height: 2rem;
+	font-size: 20px;
+	font: bold;
+}
+
+label {
+	display: block;
+}
+
+input:focus, select:focus, textarea:focus {
+	outline: 0.5px solid Coral;
+}
+
+input[type="radio"], input[type="checkbox"] {
+	display: inline-block;
+	width: 30px;
+	vertical-align: middle;
+}
+
+textarea {
+	height: 400px;
+}
+
+input[type="submit"] {
+	background-color: DarkSalmon;
+	color: white;
+	text-transform: uppercase;
+	font: bold;
+	height: 45px;
+	cursor: pointer;
+}
+
+input[type="submit"]:hover {
+	background-color: White;
+	color: DarkSalmon;
+}
+
+@media screen and (min-width: 720px)
