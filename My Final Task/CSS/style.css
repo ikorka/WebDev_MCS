@@ -1,0 +1,25 @@
+@import url(normalize.css);
+
+body {
+	background-color: lightyellow;
+}
+
+video {
+	width: 70vw;
+	height: 600px;
+	padding: 30px;
+}
+
+.mui-appbar {
+	color: navy;
+	font-size: 36px;
+	text-align: center;
+}
+
+}
+.feedback {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	margin-bottom: 30px;
+}
